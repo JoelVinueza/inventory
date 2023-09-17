@@ -593,7 +593,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Volcando datos para la tabla db_inventory.users: ~1 rows (aproximadamente)
 DELETE FROM `users`;
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `branch_id`, `role_id`, `remember_token`, `created_at`, `updated_at`) VALUES
-	(12, 'Diego Carmona Bernal', 'carmonabernaldiego@gmail.com', '$2y$10$W/nqTuN0X.JaGtGBkpw01OTSL0I3aShYL9QusP8Q5kIZ2AviqQHKC', 1, 2, '6zd4CxMA9RCTnuJaxtyhByrBYJsPfV9GtAB4pJE3Ht6YTsIvQ7ETjUVO1jlv', '2020-07-31 17:27:25', '2023-04-17 05:20:18');
+	(21, 'Joel Vinueza Garcia', 'jw.joel2000@gmail.com', '$2y$10$qto9pdMXtXJNGVp4mGfLZOygBKx8BCcusP8ta51nQXWxT8uJX7aGu', 1, 2, '6zd4CxMA9RCTnuJaxtyhByrBYJsPfV9GtAB4pJE3Ht6YTsIvQ7ETjUVO1jlv', '2023-09-17 17:05:03', '2023-09-17 17:05:03');
 
 -- Volcando estructura para tabla db_inventory.vendors
 CREATE TABLE IF NOT EXISTS `vendors` (
